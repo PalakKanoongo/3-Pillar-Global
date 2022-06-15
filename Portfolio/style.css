@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(250, 242, 232);
+    font-family:'Times New Roman', Times, serif;
+}
+#container{
+    background-color: rgb(250, 242, 232);
+    height: 100%;
+    width: 75%;
+    display: block;
+    margin-left: 10%;
+}
+
+#intro{
+    display: inline-flex;
+}
+img{
+    width: 15%;
+    height: 15%;
+}
+
+#name h1 {
+    font-family:'Times New Roman', Times, serif;
+}
+
+#name{
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+#skills{
+    background-color: rgb(247, 217, 181);
+    height: 5rem;
+    padding-top: 1.5rem;
+}
+
+#icons{
+    display: inline-flex;
+    width: 3rem;
+    height: 2rem;
+    justify-content: center;
+}
+
+.fab{
+    font-size: large;
+    size: 48px;
+}
+
+#content {
+    display: inline-flex;
+    overflow: hidden;
+    width: 90%;
+  }
+  
+  #scroll-text {
+    /* animation properties */
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    -webkit-animation: my-animation 7s linear infinite;
+    animation: my-animation 7s linear infinite ;
+  } 
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(0%); }
+    to { -webkit-transform: translateX(250px)}
+  }
+  
+  @keyframes my-animation {
+    from {
+      -webkit-transform: translateX(0%);
+      transform: translateX(0%);
+    }
+    to {
+      -webkit-transform: translateX(250px);
+      transform: translateX(250px);
+    }
+}
+
+#des{
+    
+    margin-top: 1.5rem;
+}
+#certificates {
+    display: inline-flex;
+    padding: 0.5rem;
+    width: 100%;
+    height: auto;
+    
+}
+.card{
+    width: 25%;
+    height: 10rem;
+    margin: 2rem;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.3cm;
+}
+
+.card:hover{
+    background-color:rgb(247, 217, 181) ;
+    cursor: pointer;
+}
+
+#tech{
+    display: inline-flex;
+    padding-top: 0%;
+    
+}
+
+
+
